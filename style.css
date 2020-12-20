@@ -1,20 +1,18 @@
-body{
-    text-align: center;
-}
 #output{
     border: 1px solid black;
     height: 10vh;
-    width: 70%;
-    margin: auto;
+    width: 60%;
+    margin: 1rem;
     padding: 1rem;
 }
 textarea{
     height: 10vh;
-    width:70%;
-    margin: auto;
+    width:60%;
+    margin: 1rem;
     border: 1px solid black;
     padding: 1rem;
 }
 button{
-    margin: auto;
+    margin: 2rem;
+    display: block;
 }
