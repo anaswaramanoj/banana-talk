@@ -1,3 +1,9 @@
+:root {
+    --primary-color: #FBBF24;
+}
+body{
+    margin: 0px;
+}
 #output{
     border: 1px solid black;
     height: 10vh;
@@ -13,6 +19,27 @@ textarea{
     padding: 1rem;
 }
 button{
-    margin: 2rem;
+    margin: 1rem;
     display: block;
+}
+.container {
+    padding: 0rem 1rem;
+}
+.container-center {
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem;
+}
+.navigation {
+    text-align: center;
+    background-color: var(--primary-color);
+    color: black;
+    padding: 1rem;
+    font-size: larger;
+}
+.footer{
+    color: black;
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
 }
